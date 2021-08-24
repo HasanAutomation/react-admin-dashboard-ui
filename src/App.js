@@ -1,6 +1,7 @@
 import './App.css';
 import Sidebar from './components/Sidebar';
 import TopBar from './components/TopBar';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -8,113 +9,7 @@ function App() {
       <TopBar />
       <div className='container'>
         <Sidebar />
-        <div className='others'>
-          Other page
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-          <p>other</p>
-        </div>
+        <Home />
       </div>
     </div>
   );
