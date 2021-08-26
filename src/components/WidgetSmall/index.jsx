@@ -5,7 +5,7 @@ import './WidgetSmall.css';
 export default function WidgetSmall() {
   return (
     <div className='small'>
-      <span className='small-title'>New Joined Members</span>
+      <h3 className='small-title'>New Joined Members</h3>
       <ul className='small-list'>
         <li className='small-list-item'>
           <img
