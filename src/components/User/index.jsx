@@ -8,14 +8,22 @@ import {
   DeleteOutline,
 } from '@material-ui/icons';
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import './User.css';
 
 export default function User() {
+  const history = useHistory();
+
   return (
     <div className='user'>
       <div className='userTitleContainer'>
         <h1>Edit User</h1>
-        <button className='userAddBtn'>Create</button>
+        <button
+          className='userAddBtn'
+          onClick={() => history.push('/users/create')}
+        >
+          Create
+        </button>
       </div>
       <div className='userContainer'>
         <div className='userShow'>

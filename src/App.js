@@ -5,6 +5,7 @@ import TopBar from './components/TopBar';
 import Home from './pages/Home';
 import UserList from './components/UserList';
 import User from './components/User';
+import CreateUser from './components/User/CreateUser';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route exact path='/users'>
             <UserList />
+          </Route>
+          <Route exact path='/users/create'>
+            <CreateUser />
           </Route>
           <Route exact path='/users/:id'>
             <User />
